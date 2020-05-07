@@ -1,7 +1,30 @@
 .bg-roxo{
     background-color: #7E459B;
+    ;
+}
+
+a{
+    color: white;
+}
+
+.posição {
+    height: 85vh;
+    object-fit: cover;
+    object-position: 0 40%;
+}
+
+.cor-link {
+    color: rgba(30, 1, 34, 0.74);
 }
 
 a:hover{
-  font-weight: bold;
+    font-weight: bold;
+  }
+
+button {
+    width: 100px;
+}
+
+button:hover{
+    opacity: .9;
 }

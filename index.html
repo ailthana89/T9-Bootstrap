@@ -1,13 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
+<html lang="pt-BR">
+<head>      
+    <meta charset="UTF-8">  
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="./styles/style.css">
-    <title>Document</title>
-</head>
+    <title>Portifólio - Nathalia</title>
+</head>  
+
 <body>
+
+  <!--NAV-->
     <nav class="navbar navbar-expand-lg navbar-light bg-roxo">
       <div class="container">
         <a class="navbar-brand text-white" href="https://reprograma.com.br/" target="_blank">{Reprograma}</a>
@@ -18,30 +21,274 @@
         <div class="collapse navbar-collapse  justify-content-end" id="menudesktop">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link text-white" href="#">Habilidades</a>
+              <a class="nav-link text-white" href="#habilidades">Habilidades</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white" href="#">Sobre</a>
+              <a class="nav-link text-white" href="#sobre">Sobre</a>
             </li>         
             <li class="nav-item">
-              <a class="nav-link text-white" href="#">Portifólios</a>
+              <a class="nav-link text-white" href="#portifolio">Portifólios</a>
             </li>
           </ul>         
         </div>
       </div>
-      </nav>
+    </nav>
+<!--Carrossel-->
 
-   
+    <div>
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100 posição " src="img/eu.jpg" alt="Primeiro Slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100 posição" src="img/django.jpeg" alt="Segundo Slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100 posição" src="img/2.jpg" alt="Segundo Slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100 posição" src="img/ibm.jpg" alt="Terceiro Slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100 posição" src="img/WhatsApp Image 2020-03-13 at 15.26.55.jpeg" alt="Terceiro Slide">
+            </div>
+                        
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Próximo</span>
+            </a>
+        </div>
+     </div> 
 
+
+  <!--Sobre-->
+   <section  id="sobre"class="text-center my-4">
+        <h2>Nathalia Silva</h2>
+        <p class="font-italic font-weight-light m-2">Desenvolvedora front-end</p>
+     
+     <div class="d-flex text-center flex-column flex-md-row justify-content-md-around">
+        <a href="#">
+            <img src="img/icons8-github-50.png">
+            <span class="cor-link">https://github.com/ailthana89</span>
+        </a>
+        <a href="#">
+            <img src="img/icons8-linkedin-50.png"></i>
+            <span class="cor-link">https://www.linkedin.com/mwlite/in/nathalia-silva-876962129</span>
+        </a>
+        <a href="#">
+            <img src="img/icons8-email-100.png"></i>
+            <span class="cor-link">nathy.biblio@gmail.com</span>
+        </a>
+      </div>
+    </section>
+
+      <!--HABILIDADES-->
+        <section id="habilidades" class="bg-roxo text-white d-flex flex-column flex-lg-row justify-content-lg-around p-4">
+        
+          <div class="div-habilidades w-100">
+
+          <h4 class="text-center">Habilidades</h4>
+
+          <div class="icones  pt-3  row justify-content-center">
+              <div>
+
+                <div class="text-center col"> 
+                <i class="fab fa-2x fa-html5"></i>
+                <p>HTML</p>
+                </div>
+
+                <div class="text-center col">
+                <i class="fab fa-2x fa-css3-alt"></i>
+                <p>CSS</p>
+                </div>
+
+                <div class="text-center col">
+                <i class="fab fa-2x fa-js-square"></i>
+                <p>JavaScript</p>
+                </div>
+
+            </div>
+
+            <div>
+
+                <div class="text-center col">
+                <i class="fas fa-2x fa-laptop-code"></i>
+                <p>JQuery</p>
+                </div>
+
+                <div class="text-center col">
+                <i class="fab fa-2x fa-react"></i>
+                <p>React</p>
+                </div>
+
+                <div class="text-center col">
+                <i class="fab fa-2x fa-bootstrap"></i>
+                <p>Boostrap</p>
+                </div>
+
+            </div>
+
+            <div>
+
+                <div class="text-center col">
+                <i class="fab fa-2x fa-sass"></i>
+                <p>Sass</p>
+                </div>  
+
+                <div class="text-center col">
+                <i class="fab fa-2x fa-git-alt"></i>
+                <p>Git</p>
+                </div>
+
+                <div class="text-center col">
+                    <i class="fas fa-2x fa-list-alt"></i>
+                <p>Scrum</p>
+            </div>
+
+            </div>
+         </div>
+       </div>
+
+       <div class="div-sobre w-100 p-5 text-center">
+       <h4>Sobre</h4>
+       <p class="p-2"> Aluna do bootcamp da {reprograma}</p>
+       <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat voluptates dicta necessitatibus temporibus quae suscipit vitae eligendi accusamus? Error culpa laboriosam quia. Soluta iure quae veritatis dolores harum enim numquam.</p>
+       </div>
+    </section>
+
+    <!--PORTIFOLIO-->
+
+       <h2 class="text-center m-5">Portifólio</h2>
+       
+       <!--Card 1-->
+              <section  id="portifolio" class="row justify-content-around mb-5 modal-cards">
+
+                <div class="card m-5" style="width: 18rem;">
+                    <img src="img/test.png" class="card-img-top" alt="Imagem do card">
+                      <div class="card-body text-center">
+                      <h5 class="card-title">M de maravilhosa</h5>
+                        <p class="card-text">HTML | CSS</p>
+                      <button type="button" class="btn text-white bg-roxo" data-toggle="modal" data-target="#modal01">
+                        Veja mais
+                    </button>
+                   </div>
+                  </div>
+                    
+            <!-- Modal 1 -->
+            <div class="modal fade" id="modal01" tabindex="-1" role="dialog" aria-labelledby="modal1" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h5 class="modal-title" id="modal01">Projeto - M de maravilhosa</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                </div>
+
+                    <div class="modal-body">
+                                              
+                      <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                    <a href="#" target="blank" class="btn text-white bg-roxo">Ver página</a>
+                    </div>
+                </div>
+              </div>
+            </div>
     
-  
+              <!--Card 2-->
+             
+                <div class="card m-5" style="width: 18rem;">
+                    <img src="img/test.png" class="card-img-top" alt="Imagem do card">
+                      <div class="card-body text-center">
+                      <h5 class="card-title">To Do List</h5>
+                        <p class="card-text">HTML | CSS | Javascript</p>
+                      <button type="button" class="btn text-white bg-roxo" data-toggle="modal" data-target="#modal02">
+                        Veja mais
+                    </button>
+                </div>
+                  </div>
+            
+            <!-- Modal 2 -->
+            <div class="modal fade" id="modal02" tabindex="-1" role="dialog" aria-labelledby="modal02" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h5 class="modal-title" id="modal02">Projeto - To Do List</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    </div>
+                    </div>
 
-  
+                    <div class="modal-body">
 
+                                                 
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                    <a href="#" target="blank" class="btn text-white bg-roxo">Ver página</a>
+                    </div>
+                </div>
+                </div>
+            </div>
 
+              <!--Card 3-->
+              
+                <div class="card m-5" style="width: 18rem;">
+                    <img src="img/test.png" class="card-img-top" alt="Imagem do card">
+                      <div class="card-body text-center">
+                      <h5 class="card-title">Portifólio</h5>
+                        <p class="card-text">HTML | CSS | JavaScript | Boostrap</p>
+                      <button type="button" class="btn text-white bg-roxo" data-toggle="modal" data-target="#modal03">
+                        Veja mais
+                    </button>
+                </div>
+                  </div>
+            
+            <!-- Modal 3 -->
+            <div class="modal fade" id="modal03" tabindex="-1" role="dialog" aria-labelledby="modal03" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h5 class="modal-title" id="modal01">Projeto - Portifólio - Boostrap</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    </div>
+                    </div>
+
+                    <div class="modal-body">
+                                                 
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                    <a href="#" target="blank" class="btn text-white bg-roxo">Ver página</a>
+                    </div>
+                </div>
+              </div>
+            </div>
+      </section>
+             
+         <footer class="text-center text-white bg-roxo p-1">
+           <p>Desenvolvido com Bootstrap por Nathalia Silva, enquanto aluna da {reprograma} 2020</p>
+        </footer>
 
     <script src="./js/jquery-3.4.1.min.js"></script>
     <script src="./js/bootstrap.min.js"></script>
     <script src="https://kit.fontawesome.com/4fe8d55b33.js" crossorigin="anonymous"></script>
 </body>
 </html>
+
+
+
+
+  
